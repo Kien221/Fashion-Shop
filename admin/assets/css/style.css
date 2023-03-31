@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    top: 0;
+    padding: 20px;
+    background-color: royalblue;
+    font-size: 20px;
+    color: white;
+}
+.body{
+width: 100%;
+margin-top: 20px;
+display: flex;
+
+}
+.list-function{
+   width: 50%;
+   margin-left: 25%;
+   list-style: none;
+}
+.list-function li{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.list-function li a{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    text-decoration: none;
+}
+
+
+/* ADD-CATEGORY */
+.list {
+    width: 30%;
+    padding: 40px;
+    margin-left: 30px;
+    background-color: #D8D8D8;
+    text-align: center;
+    border-radius: 20px;
+}
+.list-group li{
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+}
+.list-group li a{
+    color: black;
+    text-decoration: none;
+}
+h3{
+    float: left;
+    color: red;
+    font-weight: bold;
+}
+.add-category{
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+.add-category input{
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.add-category button{
+    padding: 10px 20px;
+}
+
+/* LIST CATEGORY */
+.list-category{
+    margin: 50px;
+    width: 70%;
+    text-align: center;
+}
+.list-category-content table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    border-collapse: collapse;
+
+}
+.list-category-content table tr th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* ADD PRODUCT */
+
+.list-add-product{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.list-add-product input,select{
+    display: block ;
+    font-size: 17px;
+    padding: 10px;
+    width: 400px;
+    margin: 10px 0;
+}
+.text-center{
+    margin-left: 260px;
+}
+
+
+

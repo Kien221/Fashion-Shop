@@ -1,0 +1,168 @@
+.container{
+    max-width: 960px;
+}
+
+.colum-10{
+    width: 100%;
+}
+.colum-9{
+    width: 90%;
+}
+.colum-7{
+    width: 70%;
+}
+.colum-6-5{
+    width: 65%;
+}
+.colum-6{
+    width: 60%;
+}
+.colum-5{
+    width: 50%;
+}
+.colum-4{
+    width: 40%;
+}
+.colum-2-5{
+    width: 25%;
+}
+.colum-3-5{
+    width: 35%;
+}
+.colum-3{
+    width: 30%;
+}
+.colum-2{
+    width: 20%;
+}
+
+.colum-1-5{
+    width: 15%;
+}
+.colum-1{
+    width: 10%;
+}
+.title{
+    display: block;
+}
+
+.title-a{
+    display: flex;
+    
+}
+.title-img{
+    max-height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+.cart-title{
+    font-size: 14px;
+    color: #868e96;
+}
+.cart-a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart-a:hover{
+    text-decoration-line: underline;
+    color: black;   
+}
+.title-p{
+    margin: 30px 0;
+}
+.checkout{
+    display: flex;
+    margin-bottom: 50px;
+}
+.checkout-left{
+    padding: 0 15px;
+}
+
+
+.info{
+    margin: 15px 0;
+}
+
+.address-p{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.names-span{
+    display: block;
+}
+.info-in{
+    color: darkgrey;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.info-in-t{
+    color: #495057;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 20px;
+   
+}
+input[placeholder]{
+    padding-left: 12px ;
+}
+input{
+    padding: 10px;
+}
+
+.stick-t{
+    border-top: 1px solid darkgrey;
+}
+.stick-b{
+    border-bottom: 1px solid darkgrey;
+}
+.payment{
+    margin: 20px 0;
+}
+
+.pay-p{
+    font-size: 24px;
+}
+
+.btn-pay{
+    color: white;
+    background-color: #007bff;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 0;
+    font-size: 20px;
+}
+.btn-pay:hover{
+    background-color: blue;
+}
+
+.checkout-right{
+    padding: 0 0 0 15px;
+}
+.title-right{
+    color: #6c757d;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box{
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+}
+.box1{
+    border-bottom:1px solid darkgrey;
+    border-right:1px solid darkgrey;
+    border-left:1px solid darkgrey;
+    border-radius: 4px;
+}
+.box-fee{
+    padding: 15px;
+}
+
+.product-count{
+    display: flex;
+}
